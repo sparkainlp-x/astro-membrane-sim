@@ -224,3 +224,22 @@ The determinism fix removes the runtime timestamp from the report, seeds all pse
 That combination provides a transparent and repeatable research artifact: the same inputs lead to the same report, while the architecture remains modular enough for future testing or replacement of individual simulation components.
 
 Thank you.
+
+
+---
+
+## Appendix — Orbital Phase-Field Extension
+
+The repository now includes `orbital_phase_field_engine.py`, a second synthetic research engine built around a scalar phase field.
+
+Its energy model combines three terms: a gradient contribution, a double-well potential `V(phi) = phi^2(1-phi)^2`, and a crystallization penalty weighted by the damping gain. The engine reports each term separately as well as their total, making the calculation auditable rather than presenting only a final score.
+
+The implementation is fail-closed. Phase order must remain within `[0, 1]`; gradient and crystallization terms must be non-negative; and every numeric input must be finite. Invalid values raise an exception rather than being silently clamped or converted into a plausible-looking result.
+
+One scientific logic defect in the original attachment was corrected. The condition `V(phi) > 0.15` could never be true because the maximum of the double-well potential on `[0, 1]` is `1/16`, or `0.0625`. The updated engine uses an explicit, configurable phase-lock threshold of `0.80`, while retaining the crystallization-index threshold as a separate gate.
+
+The trajectory generator uses `random.Random(seed)` rather than the process-wide random generator. This preserves deterministic replay and prevents the simulation from changing random sequences in unrelated code.
+
+The new regression suite checks exact energy terms, invalid-input rejection, reachable phase locking, same-seed equality, different-seed divergence, zero-step behavior, and preservation of global random state.
+
+This extension strengthens the repository's scientific posture by making assumptions explicit, identifying unreachable logic, and testing both numerical behavior and reproducibility.

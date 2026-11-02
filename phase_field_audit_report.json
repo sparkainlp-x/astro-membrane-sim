@@ -1,0 +1,68 @@
+{
+  "metadata": {
+    "engine": "orbital_phase_field_engine.py",
+    "version": "0.2.1",
+    "seed": 42,
+    "steps": 5,
+    "epistemic_status": "synthetic_research_model",
+    "determinism": "runtime timestamp excluded; local RNG used",
+    "deterministic_sha256": "a8aaac9b9830ac5e131f6146db2ccbc07a3bc36f70fa0d883270a4d14dea2648"
+  },
+  "trajectory": [
+    {
+      "phi": 0.2778853596915768,
+      "gradient_norm_sq": 0.012250967970040025,
+      "crystallization_index": 0.14626026142919174,
+      "double_well_potential": 0.04026647696439709,
+      "crystallization_penalty": 0.018183254462335187,
+      "total_free_energy": 0.06457521541175229,
+      "crystallization_locked": false,
+      "engine_action": "MAINTAIN_FLUID_FLOW",
+      "step": 0
+    },
+    {
+      "phi": 0.3725275073213413,
+      "gradient_norm_sq": 0.07628240927476111,
+      "crystallization_index": 0.28684482059801897,
+      "double_well_potential": 0.054639419488393355,
+      "crystallization_penalty": 0.06993795843832323,
+      "total_free_energy": 0.16271858256409716,
+      "crystallization_locked": true,
+      "engine_action": "APPLY_FEEDBACK_DAMPING",
+      "step": 1
+    },
+    {
+      "phi": 0.6009634208623105,
+      "gradient_norm_sq": 0.017824494936647457,
+      "crystallization_index": 0.19767263688984466,
+      "double_well_potential": 0.05750710355667732,
+      "crystallization_penalty": 0.03321330066873672,
+      "total_free_energy": 0.09963265169373776,
+      "crystallization_locked": false,
+      "engine_action": "MAINTAIN_FLUID_FLOW",
+      "step": 2
+    },
+    {
+      "phi": 0.6569228647499246,
+      "gradient_norm_sq": 0.029677417732324303,
+      "crystallization_index": 0.22687435083617685,
+      "double_well_potential": 0.05079398731933962,
+      "crystallization_penalty": 0.043751175407236165,
+      "total_free_energy": 0.10938387159273794,
+      "crystallization_locked": true,
+      "engine_action": "APPLY_FEEDBACK_DAMPING",
+      "step": 3
+    },
+    {
+      "phi": 0.7122300586866973,
+      "gradient_norm_sq": 0.027895388561798365,
+      "crystallization_index": 0.27745955322283317,
+      "double_well_potential": 0.042007946628212625,
+      "crystallization_penalty": 0.06543623312342206,
+      "total_free_energy": 0.12139187403253388,
+      "crystallization_locked": true,
+      "engine_action": "APPLY_FEEDBACK_DAMPING",
+      "step": 4
+    }
+  ]
+}
