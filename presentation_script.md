@@ -418,3 +418,16 @@ The regional extension, `nfc_regional_tourist_network.py`, aggregates multiple d
 For each event, the coordinator resolves an exhibit profile, records an aggregate educational-alignment proxy, and produces a per-event SHA-256 digest without accepting visitor identity or device identifiers. The reference run processes Fundy Trail, Acadian Coast, and Innovation Hub profiles and validates the 9+2 observer matrix.
 
 The network status is a simulation result only. No NFC tag, Wi-Fi endpoint, LED fan, PWA, telemetry service, or field deployment is contacted. A real regional rollout would require privacy, accessibility, cultural stewardship, cybersecurity, and hardware safety approvals beyond this testbench.
+
+
+---
+
+## Appendix — WorldHoloBridge Master Diagnostic
+
+`world_holo_bridge_master.py` is the current composition layer for the regional NFC network, wormhole throat diagnostic, trifold arena, and unified super-system outputs.
+
+The master cycle selects an offline synthetic waypoint route, binds regional dispatch data to bounded throat and bridge metrics, exposes the present membrane state, and carries forward the 9+2 observer calibration. Component provenance hashes are included in the master audit.
+
+The success gate requires regional dispatch and privacy checks, an unpinched synthetic throat, bounded bridge resonance, a passing trifold arena, harmonized unified-domain output, finite coupling metrics, and valid 9+2 bookkeeping.
+
+The name WorldHoloBridge describes the software architecture only. The implementation does not control NFC, Wi-Fi, LED displays, tourist infrastructure, spacecraft, or physical spacetime, and it does not claim physical wormholes or human-welfare measurement.

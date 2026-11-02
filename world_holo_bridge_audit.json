@@ -1,0 +1,68 @@
+{
+  "metadata": {
+    "engine": "world_holo_bridge_master.py",
+    "version": "1.1.0",
+    "seed": 42,
+    "framework": "WorldHoloBridge master synthetic diagnostic",
+    "epistemic_status": "synthetic_research_model",
+    "determinism": "runtime timestamp excluded; local RNG used"
+  },
+  "simulation_results": {
+    "master_bridge_status": "WORLD_BRIDGE_HARMONIZED",
+    "regional_nfc_dispatch": {
+      "active_waypoint": "WAYPOINT-INNOVATION-HUB",
+      "target_hologram_asset": "thaa_arena_wireframe",
+      "synthetic_target_rpm": 750,
+      "routing_status": "DISPATCH_ACTIVE"
+    },
+    "wormhole_tensor_dynamics": {
+      "crystallization_index": 0.15745551758033824,
+      "adjusted_throat_stability": 0.015745551758033827,
+      "throat_pinch_off_risk": false,
+      "bridge_resonance": 0.04340091058895758,
+      "bridge_resonance_bounded": true
+    },
+    "trifold_arena_state": {
+      "present_membrane_phase": 2.1280244880340224,
+      "present_membrane_yin_yang": 0.8487242168540723
+    },
+    "eleven_dimensional_observer": {
+      "spatial_dimensions": 9,
+      "observer_dimensions": 2,
+      "d10_self_knowing_factor": 0.4775232483563361,
+      "d11_empathetic_alignment_proxy": 0.95,
+      "d11_empathetic_alignment": 0.95,
+      "eleven_d_magnitude": 1.9589036522638104,
+      "social_proxy_status": "ALIGNMENT_PROXY_PASS",
+      "social_philosophy_status": "ALIGNED_FOR_HUMAN_GOOD"
+    },
+    "coupling_metrics": {
+      "educational_index": 0.9466666666666667,
+      "adjusted_throat_stability": 0.015745551758033827,
+      "bridge_resonance": 0.04340091058895758,
+      "present_membrane_balance": 0.8487242168540723,
+      "unified_coupling_phase": 0.3478905345998329
+    },
+    "success_criteria": {
+      "criteria": {
+        "regional_dispatch_active": true,
+        "regional_privacy_gate_pass": true,
+        "wormhole_throat_not_pinched": true,
+        "bridge_resonance_bounded": true,
+        "trifold_arena_gate_pass": true,
+        "unified_domain_gate_pass": true,
+        "coupling_metrics_finite": true,
+        "observer_9_plus_2_present": true
+      },
+      "overall_success": true
+    },
+    "epistemic_label": "BOUNDED_SYNTHETIC_WORLD_HOLO_BRIDGE"
+  },
+  "component_provenance": {
+    "regional_nfc": "8935423bef984508509287fe2885d5af2573bf643f9970d88247d6aea3d32972",
+    "wormhole": "6ccf2cc7c4f5e9fa51b25a07b8f759567e14482743f18c502a38f8eab414e540",
+    "trifold_arena": "7a56081e71765fdd47ea0455d7a0242bc99eb4e2ddf8187890f57c359c25f23f",
+    "unified_super_system": "33470f606042f13bde0041792ffd6fda4751d10295d8f4aa7ea8bbf8d95154b1"
+  },
+  "provenance_sha256": "fcc0f372b022ccdea529e50ff6999b7b040520e0a2ff561fcda2c899f7bf0278"
+}
