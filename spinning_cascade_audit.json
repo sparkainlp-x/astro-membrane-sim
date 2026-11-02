@@ -1,0 +1,178 @@
+{
+  "metadata": {
+    "engine": "spinning_cascade_engine.py",
+    "version": "1.1.0",
+    "seed": 42,
+    "epistemic_status": "synthetic_research_model",
+    "determinism": "runtime timestamp excluded; local RNG used"
+  },
+  "simulation_results": {
+    "total_nodes": 16,
+    "active_cascade_count": 11,
+    "active_cascade_fraction": 0.6875,
+    "system_stability": "RECURSIVE_AVALANCHE",
+    "node_telemetry": [
+      {
+        "raw_energy": 0.6836560790747304,
+        "rotational_radius": 0.1,
+        "rotational_potential_energy": 0.020000000000000004,
+        "effective_energy": 0.7036560790747304,
+        "cascade_triggered": false,
+        "cascade_intensity": 0.0,
+        "status": "VORTEX_STABLE",
+        "node_id": 0
+      },
+      {
+        "raw_energy": 0.31500645313360015,
+        "rotational_radius": 0.15000000000000002,
+        "rotational_potential_energy": 0.04500000000000001,
+        "effective_energy": 0.36000645313360013,
+        "cascade_triggered": false,
+        "cascade_intensity": 0.0,
+        "status": "VORTEX_STABLE",
+        "node_id": 1
+      },
+      {
+        "raw_energy": 0.46501759102147155,
+        "rotational_radius": 0.2,
+        "rotational_potential_energy": 0.08000000000000002,
+        "effective_energy": 0.5450175910214716,
+        "cascade_triggered": false,
+        "cascade_intensity": 0.0,
+        "status": "VORTEX_STABLE",
+        "node_id": 2
+      },
+      {
+        "raw_energy": 0.43392644288929366,
+        "rotational_radius": 0.25,
+        "rotational_potential_energy": 0.125,
+        "effective_energy": 0.5589264428892937,
+        "cascade_triggered": false,
+        "cascade_intensity": 0.0,
+        "status": "VORTEX_STABLE",
+        "node_id": 3
+      },
+      {
+        "raw_energy": 0.7418827284984075,
+        "rotational_radius": 0.30000000000000004,
+        "rotational_potential_energy": 0.18000000000000005,
+        "effective_energy": 0.9218827284984076,
+        "cascade_triggered": true,
+        "cascade_intensity": 0.12188272849840753,
+        "status": "AVALANCHE_ACTIVE",
+        "node_id": 4
+      },
+      {
+        "raw_energy": 0.7060196924537468,
+        "rotational_radius": 0.35,
+        "rotational_potential_energy": 0.24499999999999997,
+        "effective_energy": 0.9510196924537468,
+        "cascade_triggered": true,
+        "cascade_intensity": 0.1510196924537468,
+        "status": "AVALANCHE_ACTIVE",
+        "node_id": 5
+      },
+      {
+        "raw_energy": 0.8353077406229072,
+        "rotational_radius": 0.4,
+        "rotational_potential_energy": 0.32000000000000006,
+        "effective_energy": 1.1553077406229073,
+        "cascade_triggered": true,
+        "cascade_intensity": 0.35530774062290726,
+        "status": "AVALANCHE_ACTIVE",
+        "node_id": 6
+      },
+      {
+        "raw_energy": 0.3521632995776497,
+        "rotational_radius": 0.45000000000000007,
+        "rotational_potential_energy": 0.40500000000000014,
+        "effective_energy": 0.7571632995776498,
+        "cascade_triggered": false,
+        "cascade_intensity": 0.0,
+        "status": "VORTEX_STABLE",
+        "node_id": 7
+      },
+      {
+        "raw_energy": 0.5531530918111622,
+        "rotational_radius": 0.5,
+        "rotational_potential_energy": 0.5,
+        "effective_energy": 1.0531530918111622,
+        "cascade_triggered": true,
+        "cascade_intensity": 0.2531530918111622,
+        "status": "AVALANCHE_ACTIVE",
+        "node_id": 8
+      },
+      {
+        "raw_energy": 0.3178783316628422,
+        "rotational_radius": 0.55,
+        "rotational_potential_energy": 0.6050000000000001,
+        "effective_energy": 0.9228783316628423,
+        "cascade_triggered": true,
+        "cascade_intensity": 0.12287833166284223,
+        "status": "AVALANCHE_ACTIVE",
+        "node_id": 9
+      },
+      {
+        "raw_energy": 0.431182784882162,
+        "rotational_radius": 0.6,
+        "rotational_potential_energy": 0.72,
+        "effective_energy": 1.1511827848821619,
+        "cascade_triggered": true,
+        "cascade_intensity": 0.3511827848821618,
+        "status": "AVALANCHE_ACTIVE",
+        "node_id": 10
+      },
+      {
+        "raw_energy": 0.6032131728620175,
+        "rotational_radius": 0.65,
+        "rotational_potential_energy": 0.8450000000000001,
+        "effective_energy": 1.4482131728620176,
+        "cascade_triggered": true,
+        "cascade_intensity": 0.6482131728620175,
+        "status": "AVALANCHE_ACTIVE",
+        "node_id": 11
+      },
+      {
+        "raw_energy": 0.31592158181031815,
+        "rotational_radius": 0.7000000000000001,
+        "rotational_potential_energy": 0.9800000000000002,
+        "effective_energy": 1.2959215818103185,
+        "cascade_triggered": true,
+        "cascade_intensity": 0.4959215818103184,
+        "status": "AVALANCHE_ACTIVE",
+        "node_id": 12
+      },
+      {
+        "raw_energy": 0.4193025904119891,
+        "rotational_radius": 0.75,
+        "rotational_potential_energy": 1.125,
+        "effective_energy": 1.5443025904119891,
+        "cascade_triggered": true,
+        "cascade_intensity": 0.7443025904119891,
+        "status": "AVALANCHE_ACTIVE",
+        "node_id": 13
+      },
+      {
+        "raw_energy": 0.689930662667714,
+        "rotational_radius": 0.8,
+        "rotational_potential_energy": 1.2800000000000002,
+        "effective_energy": 1.9699306626677142,
+        "cascade_triggered": true,
+        "cascade_intensity": 1.1699306626677142,
+        "status": "AVALANCHE_ACTIVE",
+        "node_id": 14
+      },
+      {
+        "raw_energy": 0.6269648883619301,
+        "rotational_radius": 0.85,
+        "rotational_potential_energy": 1.4449999999999998,
+        "effective_energy": 2.07196488836193,
+        "cascade_triggered": true,
+        "cascade_intensity": 1.2719648883619301,
+        "status": "AVALANCHE_ACTIVE",
+        "node_id": 15
+      }
+    ]
+  },
+  "provenance_sha256": "6074f1a71c26a589699b67184ec3855c9f085ebf945253be4b8e4bbf94be220a"
+}

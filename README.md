@@ -115,3 +115,23 @@ python3 sparkainlp_next_discovery_engine.py \
 ```
 
 These metrics are not literal Ryu–Takayanagi calculations, non-Abelian gauge-field simulations, or empirical discoveries. They are transparent software-defined surrogates intended for reproducible numerical experimentation.
+
+## Spinning cascade engine
+
+`spinning_cascade_engine.py` adds a deterministic ring-level cascade diagnostic based on a scalar rotational-potential-energy surrogate:
+
+```text
+E_rot = 1/2 * omega^2 * r^2
+```
+
+The implementation labels this quantity as potential energy rather than force, uses a private seeded RNG, validates finite non-negative inputs, records the complete node telemetry, and hashes a timestamp-free canonical report.
+
+Run it with:
+
+```bash
+python3 spinning_cascade_engine.py \
+  --seed 42 \
+  --output spinning_cascade_audit.json
+```
+
+The model is a thresholded numerical surrogate. It is not a rotating-frame PDE solver, a Coriolis/centrifugal force simulation, or evidence that spin can control physical crystallization or prevent system failure.

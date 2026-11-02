@@ -290,3 +290,16 @@ Its second lane computes an entropy-to-capacity metric from non-negative subregi
 Its third lane applies a scalar gauge-correction surrogate and reports whether the corrected phase lies within an explicit lock-risk threshold. The scalar input is deliberately labeled as a surrogate; it is not a non-Abelian gauge-field tensor or a proof of topological defect neutralization.
 
 Like the other engines, the next-discovery report excludes runtime timestamps, uses a private seeded RNG, validates finite numeric domains, and binds the report payload to a canonical SHA-256 provenance manifest. Regression tests cover same-seed replay, different-seed divergence, empty entropy capacity, invalid inputs, gauge lock risk, and global RNG isolation.
+
+
+---
+
+## Appendix — Spinning Cascade Diagnostics
+
+The new `spinning_cascade_engine.py` models a ring of synthetic nodes under a scalar rotational-energy surrogate.
+
+Each node receives a non-negative raw energy and a radial coordinate. The engine adds `1/2 omega^2 r^2`, described correctly as rotational potential energy per unit mass, and compares the effective energy with a cascade threshold. The ring report includes every node, active-cascade count, active fraction, and a contained-versus-avalanche summary.
+
+The ring generator uses a private seeded random stream. Node evaluation is deterministic for explicit inputs, and the full timestamp-free report is bound to a canonical SHA-256 provenance manifest.
+
+The model does not solve rotating-frame equations, include Coriolis vectors, simulate vortices, or demonstrate physical crystallization control. Those claims would require a defined continuum model, coordinate conventions, dimensional analysis, numerical convergence studies, and empirical validation.
