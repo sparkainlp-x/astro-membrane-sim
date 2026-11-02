@@ -1,0 +1,73 @@
+{
+  "metadata": {
+    "engine": "nfc_regional_tourist_network.py",
+    "version": "1.1.0",
+    "seed": 42,
+    "framework": "Regional NFC Tourist Network & Synthetic Dispatch",
+    "epistemic_status": "synthetic_research_model",
+    "determinism": "runtime timestamp excluded; local RNG used"
+  },
+  "simulation_results": {
+    "regional_traffic_coordinator": {
+      "region_id": "NB-ATLANTIC-REGIONAL-NETWORK",
+      "total_taps_processed": 3,
+      "valid_waypoint_dispatch_count": 3,
+      "mean_educational_index": 0.9466666666666667,
+      "waypoint_dispatch_logs": [
+        {
+          "waypoint_id": "WAYPOINT-FUNDY-TRAIL",
+          "resolved_theme": "Geological Tectonic Shift",
+          "target_asset": "tidal_basin_model",
+          "synthetic_target_rpm": 700,
+          "tap_status": "DISPATCH_ACTIVE",
+          "visitor_identity_collected": false,
+          "educational_alignment_score": 0.95,
+          "anonymized_event_digest_sha256": "4183b2fa86fd428a9c96098a69e9d8c225d80dc97631362b6fcb81ceeb468d39"
+        },
+        {
+          "waypoint_id": "WAYPOINT-ACADIAN-COAST",
+          "resolved_theme": "Maritime Heritage",
+          "target_asset": "historic_schooner_3d",
+          "synthetic_target_rpm": 650,
+          "tap_status": "DISPATCH_ACTIVE",
+          "visitor_identity_collected": false,
+          "educational_alignment_score": 0.92,
+          "anonymized_event_digest_sha256": "28c0b0e9e7c7cde03973eee640c8da111efcb6f1e068e07283dd3306ca8d3024"
+        },
+        {
+          "waypoint_id": "WAYPOINT-INNOVATION-HUB",
+          "resolved_theme": "Spatial Computing & Holograms",
+          "target_asset": "thaa_arena_wireframe",
+          "synthetic_target_rpm": 750,
+          "tap_status": "DISPATCH_ACTIVE",
+          "visitor_identity_collected": false,
+          "educational_alignment_score": 0.97,
+          "anonymized_event_digest_sha256": "d9862250e892e5b11ba15c03f9d679609459bea034f0675f78302c8948507c84"
+        }
+      ],
+      "network_status": "SYNCHRONIZED_REGIONAL_ACTIVE",
+      "epistemic_label": "BOUNDED_SYNTHETIC_REGIONAL_DISPATCH"
+    },
+    "eleven_dimensional_calibration": {
+      "spatial_dimensions": 9,
+      "observer_dimensions": 2,
+      "d10_self_knowing_factor": 0.4775232483563361,
+      "d11_empathetic_alignment_proxy": 0.95,
+      "eleven_d_magnitude": 1.9589036522638104,
+      "social_proxy_status": "ALIGNMENT_PROXY_PASS"
+    },
+    "success_criteria": {
+      "criteria": {
+        "regional_network_active": true,
+        "all_reference_waypoints_dispatch": true,
+        "privacy_identity_not_collected": true,
+        "event_digests_present": true,
+        "nine_plus_two_dimensions_present": true,
+        "educational_alignment_proxy_pass": true
+      },
+      "overall_success": true,
+      "interpretation": "All synthetic regional-network gates passed"
+    }
+  },
+  "provenance_sha256": "95922684c1ba5c369c63e507ac7f12018745700ee51bd19c9e4015c874480073"
+}

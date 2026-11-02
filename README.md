@@ -264,3 +264,17 @@ python3 nfc_tourism_attraction_engine.py \
 ```
 
 This is an offline dispatch testbench. It does not control NFC tags, phones, Wi-Fi, LED hologram hardware, visitor analytics, or commercial tourism infrastructure.
+
+## Regional NFC tourist network diagnostic
+
+`nfc_regional_tourist_network.py` scales the NFC diagnostic across three declared waypoints. It aggregates synthetic traffic, resolves exhibit profiles, creates per-event anonymized digests, and reports regional educational-alignment and 9+2 observer proxies.
+
+Run it with:
+
+```bash
+python3 nfc_regional_tourist_network.py \
+  --seed 42 \
+  --output regional_nfc_audit.json
+```
+
+The regional module does not use NFC UIDs, collect PII, access Wi-Fi, issue LED-fan commands, or record real timestamps. Any physical deployment would require separate consent, accessibility, cultural-stewardship, cybersecurity, data-protection, electrical-safety, and hardware validation work.

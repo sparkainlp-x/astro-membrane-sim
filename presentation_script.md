@@ -407,3 +407,14 @@ The new `nfc_tourism_attraction_engine.py` models a privacy-preserving tap-to-ex
 Each simulated event produces an anonymized SHA-256 digest over non-identifying declared fields. The reference pipeline checks waypoint resolution, identity non-collection, digest presence, 9+2 observer bookkeeping, and educational-alignment proxy status.
 
 The engine is an offline research testbench, not a regional deployment controller or a claim about visitor behavior. Any real deployment would require consent, accessibility review, data-protection governance, hardware safety validation, and independent cultural-stewardship review.
+
+
+---
+
+## Appendix — Regional NFC Tourist Network
+
+The regional extension, `nfc_regional_tourist_network.py`, aggregates multiple declared waypoint events across a synthetic Atlantic-region network.
+
+For each event, the coordinator resolves an exhibit profile, records an aggregate educational-alignment proxy, and produces a per-event SHA-256 digest without accepting visitor identity or device identifiers. The reference run processes Fundy Trail, Acadian Coast, and Innovation Hub profiles and validates the 9+2 observer matrix.
+
+The network status is a simulation result only. No NFC tag, Wi-Fi endpoint, LED fan, PWA, telemetry service, or field deployment is contacted. A real regional rollout would require privacy, accessibility, cultural stewardship, cybersecurity, and hardware safety approvals beyond this testbench.
