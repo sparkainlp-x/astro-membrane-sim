@@ -1,0 +1,41 @@
+{
+  "manifest_schema": "sparkainlp-x.zenodo.deposit.v1",
+  "repository": "https://github.com/sparkainlp-x/astro-membrane-sim",
+  "release_tag": "v4.1.0",
+  "software_version": "4.1.0",
+  "metadata_file": "zenodo.json",
+  "artifact": {
+    "path": "multi_agent_network_audit.json",
+    "seed": 42,
+    "node_count": 3,
+    "sha256": "fd2ec54e253aa8ac858a4c9784bc8c754d79507c7a53a0deaac12a921c89656e",
+    "provenance_sha256": "243a7c08922bac04972ef610eca998880e2963a828f484ed6b8ca2d0271d7019"
+  },
+  "verification": {
+    "regression_tests_passed": 88,
+    "report_reproducibility": "byte-identical under repeated seed-42 execution",
+    "network_success": true,
+    "active_node_count": 3,
+    "bridge_status": "BOUNDED_STABLE",
+    "epistemic_status": "synthetic_research_model",
+    "doi_status": "not_yet_minted"
+  },
+  "scientific_scope": {
+    "claims": [
+      "deterministic software execution",
+      "bounded synthetic network aggregation",
+      "cryptographic provenance of the reported artifact"
+    ],
+    "non_claims": [
+      "physical wormhole formation",
+      "Einstein-Rosen bridge realization",
+      "spacetime manipulation or entanglement",
+      "spacecraft control or live telemetry operation",
+      "validated materials or industrial manufacturing behavior",
+      "measurement of empathy, morality, or human welfare"
+    ]
+  },
+  "license": "AGPL-3.0-only",
+  "prepared_for": "Zenodo manual deposit or release integration",
+  "publication_date": "2026-11-02"
+}

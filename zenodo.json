@@ -1,0 +1,34 @@
+{
+  "title": "sparkainlp-x: Distributed Trifold Arena and Synthetic Multi-Agent Network Diagnostics",
+  "upload_type": "software",
+  "publication_date": "2026-11-02",
+  "description": "<p>Open-source synthetic research software for deterministic multi-agent arena diagnostics, aerospace synchronization, energy phase-field surrogates, trifold membrane states, and bounded network aggregation.</p><p>The v4.1.0 release includes three explicit membrane phases, 9+2 observer-proxy calibration, wormhole and bridge diagnostics, timestamp-free SHA-256 provenance, private seeded random-number generation, and regression-tested multi-agent execution.</p><p>These modules are computational testbenches. They do not claim physical wormhole formation, spacetime manipulation, spacecraft control, validated materials behavior, empathy measurement, or human-welfare outcomes.</p>",
+  "creators": [
+    {
+      "name": "Brisson, Hicham JF",
+      "affiliation": "Spark AI NLP"
+    }
+  ],
+  "license": "agpl-3.0-only",
+  "version": "4.1.0",
+  "keywords": [
+    "multi-agent simulation",
+    "trifold arena diagnostics",
+    "phase-field surrogate",
+    "relativistic synchronization surrogate",
+    "bounded network aggregation",
+    "cryptographic provenance",
+    "deterministic reproducibility",
+    "open science",
+    "synthetic research software"
+  ],
+  "access_right": "open",
+  "related_identifiers": [
+    {
+      "identifier": "https://github.com/sparkainlp-x/astro-membrane-sim/tree/v4.1.0",
+      "relation": "isIdenticalTo",
+      "resource_type": "software"
+    }
+  ],
+  "notes": "Release tag: v4.1.0. Three-node seed-42 audit artifact SHA-256: fd2ec54e253aa8ac858a4c9784bc8c754d79507c7a53a0deaac12a921c89656e. Audit provenance SHA-256: 243a7c08922bac04972ef610eca998880e2963a828f484ed6b8ca2d0271d7019. The multi-agent bridge label is retained for compatibility, while the implementation is explicitly classified as bounded synthetic aggregation."
+}
