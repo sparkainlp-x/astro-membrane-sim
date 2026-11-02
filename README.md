@@ -213,3 +213,19 @@ python3 energy_phase_engine.py \
 ```
 
 This is a synthetic numerical testbench, not a validated Allen-Cahn solver, alloy-solidification model, thermal-shock predictor, or industrial manufacturing controller.
+
+## Unified super-system orchestrator
+
+`sparkainlp_super_system.py` composes the aerospace, energy, trifold-arena, and wormhole diagnostics into one deterministic audit cycle. It records component success, cross-domain coupling metrics, adaptive parameter summaries, and component provenance hashes.
+
+The orchestrator deliberately does not rewrite source code or executable logic at runtime. Its adaptive values are reported diagnostics derived from explicit component outputs, which preserves reproducibility and auditability. The coupling metrics are software-defined summaries, not a physical metric tensor or a validated causal theory.
+
+Run it with:
+
+```bash
+python3 sparkainlp_super_system.py \
+  --seed 42 \
+  --output super_system_audit.json
+```
+
+A harmonized result means all component gates and orchestrator checks passed for the selected synthetic inputs. It does not establish physical unification, autonomous safety, empathy measurement, or human benefit.
