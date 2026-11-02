@@ -396,3 +396,14 @@ Each node computes past, present, and future membrane phases, validates exactly 
 The supplied compatibility status `ACTIVE_EINSTEIN_ROSEN_MULTINODE` is preserved for the regression contract, while the epistemic label makes clear that this is a synthetic aggregation diagnostic. It does not demonstrate a physical wormhole, entanglement, or zero-loss transmission.
 
 The regression suite verifies node computation, network bridging, same-seed reproducibility, seed variance, manifest correctness, input rejection, node-count validation, and global RNG isolation.
+
+
+---
+
+## Appendix — NFC Tourism Attraction Diagnostic
+
+The new `nfc_tourism_attraction_engine.py` models a privacy-preserving tap-to-experience lifecycle. A declared waypoint resolves to a synthetic exhibit profile, display asset, and target fan setting, while no NFC hardware, visitor identity, phone, Wi-Fi endpoint, or display is accessed.
+
+Each simulated event produces an anonymized SHA-256 digest over non-identifying declared fields. The reference pipeline checks waypoint resolution, identity non-collection, digest presence, 9+2 observer bookkeeping, and educational-alignment proxy status.
+
+The engine is an offline research testbench, not a regional deployment controller or a claim about visitor behavior. Any real deployment would require consent, accessibility review, data-protection governance, hardware safety validation, and independent cultural-stewardship review.

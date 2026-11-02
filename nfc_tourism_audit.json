@@ -1,0 +1,44 @@
+{
+  "metadata": {
+    "engine": "nfc_tourism_attraction_engine.py",
+    "version": "1.1.0",
+    "seed": 42,
+    "framework": "NFC Tourism Attraction & Synthetic Holographic Dispatch",
+    "epistemic_status": "synthetic_research_model",
+    "determinism": "runtime timestamp excluded; local RNG used"
+  },
+  "simulation_results": {
+    "nfc_waypoint_router": {
+      "region_id": "NB-ATLANTIC-REGIONAL-01",
+      "waypoint_id": "WAYPOINT-FUNDY-TRAIL",
+      "resolved_exhibit_theme": "Geological Tectonic Shift",
+      "target_hologram_asset": "tidal_basin_model",
+      "synthetic_target_fan_rpm": 700,
+      "educational_alignment_score": 0.95,
+      "waypoint_dispatch_status": "DISPATCH_SUCCESS",
+      "visitor_identity_collected": false,
+      "anonymized_event_digest_sha256": "e201a389a261ad9f1c4b5489a6b7e8be2cbd031c59d14e51fe47a37560bcbeec",
+      "epistemic_label": "BOUNDED_SYNTHETIC_NFC_DISPATCH"
+    },
+    "eleven_dimensional_calibration": {
+      "spatial_dimensions": 9,
+      "observer_dimensions": 2,
+      "d10_self_knowing_factor": 0.4775232483563361,
+      "d11_empathetic_alignment_proxy": 0.96,
+      "eleven_d_magnitude": 1.9637727767877056,
+      "social_proxy_status": "ALIGNMENT_PROXY_PASS"
+    },
+    "success_criteria": {
+      "criteria": {
+        "waypoint_dispatch_resolved": true,
+        "privacy_identity_not_collected": true,
+        "anonymized_digest_present": true,
+        "nine_plus_two_dimensions_present": true,
+        "educational_alignment_proxy_pass": true
+      },
+      "overall_success": true,
+      "interpretation": "All synthetic NFC tourism gates passed"
+    }
+  },
+  "provenance_sha256": "95c4a62030fce57b4a002f5f23bac4c5d007c0525ad1986bd44f2c2f38a137da"
+}

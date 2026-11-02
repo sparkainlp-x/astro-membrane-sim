@@ -250,3 +250,17 @@ Run its tests with:
 ```bash
 python3 -m unittest -v test_multi_agent_arena_network.py
 ```
+
+## NFC tourism attraction diagnostic
+
+`nfc_tourism_attraction_engine.py` models a tap-to-experience lifecycle without accessing NFC hardware or visitor identity. It validates a waypoint, resolves a synthetic exhibit profile, reports a simulated display target, and creates an anonymized SHA-256 event digest from the declared region, waypoint, intent proxy, and dispatch status.
+
+The reference run includes explicit gates for successful waypoint resolution, identity non-collection, digest presence, 9+2 observer bookkeeping, and educational-alignment proxy status. Run it with:
+
+```bash
+python3 nfc_tourism_attraction_engine.py \
+  --seed 42 \
+  --output nfc_tourism_audit.json
+```
+
+This is an offline dispatch testbench. It does not control NFC tags, phones, Wi-Fi, LED hologram hardware, visitor analytics, or commercial tourism infrastructure.
