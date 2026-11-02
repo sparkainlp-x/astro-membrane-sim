@@ -431,3 +431,16 @@ The master cycle selects an offline synthetic waypoint route, binds regional dis
 The success gate requires regional dispatch and privacy checks, an unpinched synthetic throat, bounded bridge resonance, a passing trifold arena, harmonized unified-domain output, finite coupling metrics, and valid 9+2 bookkeeping.
 
 The name WorldHoloBridge describes the software architecture only. The implementation does not control NFC, Wi-Fi, LED displays, tourist infrastructure, spacecraft, or physical spacetime, and it does not claim physical wormholes or human-welfare measurement.
+
+
+---
+
+## Appendix — HoloPulse Commercial Dispatch Diagnostic
+
+`holopulse_commercial_engine.py` extends the research ecosystem into synthetic automotive, retail, and hospitality campaign profiles.
+
+The security boundary was corrected during integration. A token cannot protect code merely because the program hashes the same token twice. The public build therefore exposes a reproducible research-demo token and supports real external verification only when a caller supplies an independently managed expected digest or signed-license service.
+
+Campaign results include synthetic asset selection, estimated power draw, a thermal-check surrogate, and explicit flags showing that no hardware command or customer identity was collected. These fields are audit diagnostics, not commercial deployment authorization or hardware safety certification.
+
+The module remains AGPL-3.0-only research software. Any proprietary enterprise rights, secrets, deployment controls, and legal terms must be handled outside the public research core.

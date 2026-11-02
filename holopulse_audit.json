@@ -1,0 +1,51 @@
+{
+  "metadata": {
+    "engine": "holopulse_commercial_engine.py",
+    "version": "1.1.0",
+    "seed": 42,
+    "framework": "HoloPulse Commercial Dispatch Research Diagnostic",
+    "epistemic_status": "synthetic_research_model",
+    "license_scope": "AGPL-3.0-only research core; external commercial authorization required",
+    "determinism": "runtime timestamp excluded; local RNG used"
+  },
+  "simulation_results": {
+    "commercial_dispatcher": {
+      "venue_id": "STORE-METRO-ATLANTIC-01",
+      "active_campaign": "BLACK_FRIDAY_FLASH",
+      "target_asset": "holiday_promotional_burst_3d",
+      "synthetic_fan_target_rpm": 750,
+      "campaign_priority": "CRITICAL",
+      "ambient_temperature_c": 24.5,
+      "estimated_power_draw_watts": 60.0,
+      "hardware_safety_status": "SYNTHETIC_THERMAL_CHECK_PASS",
+      "hardware_command_issued": false,
+      "customer_identity_collected": false,
+      "epistemic_label": "BOUNDED_SYNTHETIC_CAMPAIGN_DISPATCH"
+    },
+    "eleven_dimensional_calibration": {
+      "spatial_dimensions": 9,
+      "observer_dimensions": 2,
+      "d10_self_knowing_factor": 0.4775232483563361,
+      "d11_empathetic_alignment_proxy": 0.92,
+      "d11_empathetic_alignment": 0.92,
+      "eleven_d_magnitude": 1.944531696540968,
+      "social_proxy_status": "ALIGNMENT_PROXY_PASS",
+      "social_philosophy_status": "ALIGNED_FOR_HUMAN_GOOD"
+    },
+    "commercial_license_status": "RESEARCH_DEMO_LICENSE_VERIFIED",
+    "success_criteria": {
+      "criteria": {
+        "license_verification_pass": true,
+        "campaign_profile_resolved": true,
+        "synthetic_thermal_check_pass": true,
+        "no_hardware_command_issued": true,
+        "no_customer_identity_collected": true,
+        "nine_plus_two_dimensions_present": true,
+        "educational_alignment_proxy_pass": true
+      },
+      "overall_success": true,
+      "interpretation": "All synthetic HoloPulse research gates passed"
+    }
+  },
+  "provenance_sha256": "a23ecece02e13527665dea8f60587b41ec26442f5deae8a90433d5fe1233bf68"
+}

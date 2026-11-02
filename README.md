@@ -294,3 +294,20 @@ python3 world_holo_bridge_master.py \
 ```
 
 `WORLD_BRIDGE_HARMONIZED` means that the software-defined component gates passed for the selected inputs. It does not mean physical holograms, wormholes, NFC deployment, spacetime transport, or hardware control were achieved.
+
+## HoloPulse commercial dispatch diagnostic
+
+`holopulse_commercial_engine.py` models automotive, retail-campaign, and hospitality display profiles with synthetic power and thermal checks. It never issues hardware commands, collects customer identity, or claims commercial hardware safety.
+
+The license boundary is intentionally explicit. The public research-demo token supports reproducible tests only. Real commercial authorization requires an externally supplied expected token digest or a separate signed-license service; the open repository does not pretend that a self-hash protects proprietary code.
+
+Run the research demo with:
+
+```bash
+python3 holopulse_commercial_engine.py \
+  --seed 42 \
+  --mode BLACK_FRIDAY_FLASH \
+  --output holopulse_audit.json
+```
+
+For an externally verified token, provide both `--license` and `--license-sha256`. The result remains a simulation report rather than a hardware deployment.
