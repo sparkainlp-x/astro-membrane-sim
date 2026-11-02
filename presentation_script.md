@@ -357,3 +357,16 @@ The engine applies a transparent linear drift model: each velocity component is 
 The implementation rejects mismatched vectors, non-finite inputs, and invalid elapsed ticks. Its 9+2 observer calibration is validated independently, and the reference run includes a success gate for finite predictions, acceptable drift, dimensional bookkeeping, and the empathy alignment proxy.
 
 This is a synthetic bounded extrapolation diagnostic. It is not a relativistic dynamics solver, spacecraft navigation system, or live telemetry integration.
+
+
+---
+
+## Appendix — Materials and Energy Phase-Field Breakout
+
+The new `energy_phase_engine.py` isolates phase-field evolution for materials and energy experiments.
+
+The phase update receives thermal noise explicitly, computes the double-well derivative, applies phase damping, and clamps the phase to `[0, 1]`. A separate rotational-potential calculation provides a clearly labeled scalar damping surrogate rather than being presented as a validated centrifugal materials law.
+
+The attachment's global random-state use was removed, and its invalid module guard was corrected. The resulting audit is deterministic, fail-closed, and tested for bounded phase output, finite values, reproducibility, observer dimensionality, and alignment-proxy status.
+
+The module remains a numerical testbench. It does not predict alloy solidification, thermal-shock resilience, or industrial process outcomes without physical calibration and experimental validation.

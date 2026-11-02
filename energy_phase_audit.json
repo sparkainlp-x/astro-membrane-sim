@@ -1,0 +1,52 @@
+{
+  "metadata": {
+    "engine": "energy_phase_engine.py",
+    "version": "1.1.0",
+    "seed": 42,
+    "framework": "Materials & Energy Phase-Field Dynamics Diagnostic",
+    "epistemic_status": "synthetic_research_model",
+    "determinism": "runtime timestamp excluded; local RNG used"
+  },
+  "simulation_results": {
+    "phase_field_dynamics": {
+      "phi_previous": 0.35,
+      "phi_updated": 0.3478905345998329,
+      "double_well_potential": 0.05146668943159363,
+      "crystallization_index": 0.12,
+      "phase_damping": 0.102,
+      "rotational_damping": 0.00625,
+      "thermal_noise": 0.013803459983292035,
+      "d_phi_dt": -0.21094654001670798,
+      "crystallization_locked": false,
+      "phase_action": "MAINTAIN_FLUID_FLOW",
+      "epistemic_label": "BOUNDED_SYNTHETIC_PHASE_FIELD"
+    },
+    "rotational_damping_surrogate": {
+      "angular_velocity": 1.0,
+      "radius": 0.5,
+      "rotational_potential_energy": 0.125,
+      "damping_surrogate": 0.00625,
+      "epistemic_label": "SCALAR_ROTATIONAL_DAMPING_SURROGATE"
+    },
+    "eleven_dimensional_calibration": {
+      "spatial_dimensions": 9,
+      "observer_dimensions": 2,
+      "d10_self_knowing_factor": 0.4775232483563361,
+      "d11_empathetic_alignment_proxy": 0.94,
+      "eleven_d_magnitude": 1.9540735704810337,
+      "social_proxy_status": "ALIGNMENT_PROXY_PASS"
+    },
+    "success_criteria": {
+      "criteria": {
+        "phase_state_bounded": true,
+        "phase_outputs_finite": true,
+        "rotational_damping_finite": true,
+        "nine_plus_two_dimensions_present": true,
+        "empathy_alignment_proxy_pass": true
+      },
+      "overall_success": true,
+      "interpretation": "All synthetic phase-field gates passed"
+    }
+  },
+  "provenance_sha256": "612c93d64a00c685e1e37de597106bb3f6de89985a01ca20fe8501af15ea932b"
+}

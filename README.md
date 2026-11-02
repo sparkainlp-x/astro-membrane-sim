@@ -199,3 +199,17 @@ python3 astro_sync_engine.py \
 ```
 
 This is a bounded linear extrapolation model, not a relativistic dynamics solver, spacecraft navigation system, or live telemetry interface.
+
+## Materials and energy phase-field breakout
+
+`energy_phase_engine.py` isolates the phase-field lane with an explicit noise sample, bounded Euler-Maruyama-style update, and a separately labeled scalar rotational-damping surrogate. The original global-RNG implementation and invalid `if __name__ == main()` guard were corrected.
+
+The reference audit validates the phase state, finite outputs, rotational damping diagnostic, 9+2 observer bookkeeping, and empathy alignment proxy. Run it with:
+
+```bash
+python3 energy_phase_engine.py \
+  --seed 42 \
+  --output energy_phase_audit.json
+```
+
+This is a synthetic numerical testbench, not a validated Allen-Cahn solver, alloy-solidification model, thermal-shock predictor, or industrial manufacturing controller.
