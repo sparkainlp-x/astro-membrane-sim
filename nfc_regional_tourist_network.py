@@ -157,10 +157,15 @@ class ElevenDimensionalObserver:
             "observer_dimensions": self.observer_dims,
             "d10_self_knowing_factor": d10,
             "d11_empathetic_alignment_proxy": empathy,
+            "d11_empathetic_alignment": empathy,
             "eleven_d_magnitude": magnitude,
             "social_proxy_status": (
                 "ALIGNMENT_PROXY_PASS" if empathy >= 0.70
                 else "ALIGNMENT_PROXY_RECALIBRATION_REQUIRED"
+            ),
+            "social_philosophy_status": (
+                "ALIGNED_FOR_HUMAN_GOOD" if empathy >= 0.75
+                else "RECALIBRATION_REQUIRED"
             ),
         }
 

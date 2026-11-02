@@ -50,6 +50,11 @@ class RegionalNFCTouristNetworkTests(unittest.TestCase):
         with self.assertRaises(ValueError):
             ElevenDimensionalObserver().calibrate_axes([0.1] * 8, 0.9)
 
+    def test_legacy_observer_aliases_remain_compatible(self):
+        calibration = ElevenDimensionalObserver().calibrate_axes([0.5] * 9, 0.95)
+        self.assertEqual(calibration["d11_empathetic_alignment"], 0.95)
+        self.assertEqual(calibration["social_philosophy_status"], "ALIGNED_FOR_HUMAN_GOOD")
+
     def test_reference_pipeline_passes_success_gate(self):
         report = execute_regional_simulation(seed=42)
         self.assertTrue(report["simulation_results"]["success_criteria"]["overall_success"])

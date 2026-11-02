@@ -278,3 +278,5 @@ python3 nfc_regional_tourist_network.py \
 ```
 
 The regional module does not use NFC UIDs, collect PII, access Wi-Fi, issue LED-fan commands, or record real timestamps. Any physical deployment would require separate consent, accessibility, cultural-stewardship, cybersecurity, data-protection, electrical-safety, and hardware validation work.
+
+The regional observer also retains compatibility aliases (`d11_empathetic_alignment` and `social_philosophy_status`) for earlier regression clients while exposing the more precise proxy names used by the current success gates.

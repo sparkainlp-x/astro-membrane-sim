@@ -53,8 +53,10 @@
       "observer_dimensions": 2,
       "d10_self_knowing_factor": 0.4775232483563361,
       "d11_empathetic_alignment_proxy": 0.95,
+      "d11_empathetic_alignment": 0.95,
       "eleven_d_magnitude": 1.9589036522638104,
-      "social_proxy_status": "ALIGNMENT_PROXY_PASS"
+      "social_proxy_status": "ALIGNMENT_PROXY_PASS",
+      "social_philosophy_status": "ALIGNED_FOR_HUMAN_GOOD"
     },
     "success_criteria": {
       "criteria": {
@@ -69,5 +71,5 @@
       "interpretation": "All synthetic regional-network gates passed"
     }
   },
-  "provenance_sha256": "95922684c1ba5c369c63e507ac7f12018745700ee51bd19c9e4015c874480073"
+  "provenance_sha256": "8935423bef984508509287fe2885d5af2573bf643f9970d88247d6aea3d32972"
 }
