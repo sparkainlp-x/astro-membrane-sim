@@ -258,3 +258,20 @@ The composition is deterministic without pretending to be physical flight softwa
 The original master attachment contained the same unreachable condition identified in the phase-field prototype: `V(phi) > 0.15` cannot occur on the admissible interval because the double-well maximum is `0.0625`. The integrated engine uses the corrected explicit phase-lock threshold from the hardened phase-field implementation.
 
 The master report records the four lane outputs under `simulation_results`. Its regression tests verify reproducibility, seed sensitivity, non-finite-value rejection, telemetry shape validation, negative-tick rejection, and the presence of all four lanes.
+
+
+---
+
+## Appendix — Advanced Stochastic and Provenance Engine
+
+The latest extension is `sparkainlp_advanced_science_engine.py`.
+
+It adds a bounded Euler-Maruyama-style phase experiment. The phase update uses the derivative of the double-well potential, a gradient contribution, an anti-crystallization damping force, and an explicitly supplied thermal-noise sample. The runner draws noise from a private seeded RNG, while the update method itself remains reproducible for explicit inputs.
+
+The extension also computes synthetic boundary action metrics. Bulk values are grouped into cells, summarized by RMS energy and peak amplitude, and transformed into an action-density score. These are software-defined metrics for comparative simulation only; they are not a derivation of a physical holographic-complexity observable.
+
+Every advanced report is timestamp-free. A canonical JSON manifest is hashed before the provenance field is added, avoiding self-reference. Repeated executions with the same seed, iteration count, and time step therefore produce identical reports and identical provenance digests.
+
+The implementation rejects non-finite values, invalid phase bounds, negative gradient or crystallization terms, non-positive integration steps, and negative bulk values in the logarithmic action metric. These guardrails make invalid states visible instead of silently converting them into plausible output.
+
+The source attachment's `V(phi) > 0.15` lock test was again corrected because the double-well potential cannot exceed `0.0625` on `[0, 1]`. The advanced engine uses the same reachable explicit phase threshold as the validated phase-field engine.

@@ -70,3 +70,28 @@ python3 -m unittest -v test_orbital_phase_field_engine.py test_master_engine.py
 ```
 
 A Zenodo DOI or other archival identifier must only be added after an actual archive deposit and verification; the repository does not claim one automatically.
+
+## Advanced stochastic science engine
+
+`sparkainlp_advanced_science_engine.py` extends the deterministic testbench with a bounded Euler-Maruyama-style phase experiment, synthetic boundary action metrics, and a cryptographic provenance manifest.
+
+Scientific safeguards in this implementation include:
+
+- Explicit thermal-noise samples generated from a private seeded RNG
+- Pure phase updates for explicit `phi`, gradient, crystallization, noise, and `dt` inputs
+- Fail-closed finite-value, domain, and step-size validation
+- Bounded phase updates in `[0, 1]`
+- Non-negative bulk-value validation before logarithmic action metrics
+- Canonical timestamp-free SHA-256 manifests
+
+Run it with:
+
+```bash
+python3 sparkainlp_advanced_science_engine.py \
+  --seed 42 \
+  --iterations 3 \
+  --dt 0.01 \
+  --output advanced_science_audit.json
+```
+
+This is a synthetic numerical model, not a physical Cahn-Hilliard solver, validated stochastic differential-equation integrator, holographic-gravity calculation, or flight-control system. Any empirical claim would require separate physical definitions, calibration data, convergence studies, uncertainty analysis, and experimental validation.

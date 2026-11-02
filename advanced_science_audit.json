@@ -1,0 +1,73 @@
+{
+  "metadata": {
+    "engine": "sparkainlp_advanced_science_engine.py",
+    "version": "2.0.1",
+    "seed": 42,
+    "iterations": 3,
+    "dt": 0.01,
+    "epistemic_status": "synthetic_research_model",
+    "determinism": "runtime timestamp excluded; local RNG used"
+  },
+  "simulation_results": {
+    "holographic_complexity_analysis": {
+      "boundary_nodes": [
+        {
+          "cell_id": 0,
+          "rms_energy": 0.46338643699256293,
+          "peak_amplitude": 0.8137436541638764,
+          "action_density": -0.09550852466092136
+        },
+        {
+          "cell_id": 1,
+          "rms_energy": 0.5627116191077527,
+          "peak_amplitude": 0.8657704577654249,
+          "action_density": -0.08110670137137818
+        },
+        {
+          "cell_id": 2,
+          "rms_energy": 0.517016597634086,
+          "peak_amplitude": 0.8784926111834965,
+          "action_density": -0.06697835353713964
+        }
+      ],
+      "total_bulk_action": 0.24359357956943917,
+      "holographic_complexity_score": 0.07753824458785034
+    },
+    "stochastic_phase_trajectory": [
+      {
+        "phi_previous": 0.25,
+        "phi_updated": 0.2461627022749381,
+        "double_well_potential": 0.03443497279029148,
+        "crystallization_index": 0.24070533327932003,
+        "thermal_noise": -0.009399365482720278,
+        "d_phi_dt": -0.3837297725061894,
+        "crystallization_locked": true,
+        "action": "APPLY_FEEDBACK_DAMPING",
+        "iteration": 0
+      },
+      {
+        "phi_previous": 0.2461627022749381,
+        "phi_updated": 0.2436504539759558,
+        "double_well_potential": 0.03396092814705447,
+        "crystallization_index": 0.130093346614734,
+        "thermal_noise": 0.00998652800953563,
+        "d_phi_dt": -0.25122482989823175,
+        "crystallization_locked": false,
+        "action": "MAINTAIN_FLUID_FLOW",
+        "iteration": 1
+      },
+      {
+        "phi_previous": 0.2436504539759558,
+        "phi_updated": 0.2401002001753541,
+        "double_well_potential": 0.033288766623634725,
+        "crystallization_index": 0.24441061557397809,
+        "thermal_noise": 0.015369470309393929,
+        "d_phi_dt": -0.35502538006016915,
+        "crystallization_locked": true,
+        "action": "APPLY_FEEDBACK_DAMPING",
+        "iteration": 2
+      }
+    ]
+  },
+  "provenance_sha256": "a0a3fdc3f6c5127507fb9db1bbdb84e8584e1bc742cd40de9e5f759e849208e9"
+}
