@@ -275,3 +275,18 @@ Every advanced report is timestamp-free. A canonical JSON manifest is hashed bef
 The implementation rejects non-finite values, invalid phase bounds, negative gradient or crystallization terms, non-positive integration steps, and negative bulk values in the logarithmic action metric. These guardrails make invalid states visible instead of silently converting them into plausible output.
 
 The source attachment's `V(phi) > 0.15` lock test was again corrected because the double-well potential cannot exceed `0.0625` on `[0, 1]`. The advanced engine uses the same reachable explicit phase threshold as the validated phase-field engine.
+
+
+---
+
+## Appendix — Next-Discovery Diagnostics
+
+The next extension is `sparkainlp_next_discovery_engine.py`.
+
+Its first lane is an RG-like coupling-flow map. It evolves a non-negative coupling using an explicit scaling dimension, determination factor, and integration step, then reports drift from a configured target. This is a parameterized numerical diagnostic, not an exact renormalization-group derivation.
+
+Its second lane computes an entropy-to-capacity metric from non-negative subregion densities. Empty input is handled explicitly, preventing division by zero. The metric is useful for comparing synthetic configurations, but it is not a literal Ryu–Takayanagi minimal-surface calculation.
+
+Its third lane applies a scalar gauge-correction surrogate and reports whether the corrected phase lies within an explicit lock-risk threshold. The scalar input is deliberately labeled as a surrogate; it is not a non-Abelian gauge-field tensor or a proof of topological defect neutralization.
+
+Like the other engines, the next-discovery report excludes runtime timestamps, uses a private seeded RNG, validates finite numeric domains, and binds the report payload to a canonical SHA-256 provenance manifest. Regression tests cover same-seed replay, different-seed divergence, empty entropy capacity, invalid inputs, gauge lock risk, and global RNG isolation.

@@ -1,0 +1,37 @@
+{
+  "metadata": {
+    "engine": "sparkainlp_next_discovery_engine.py",
+    "version": "3.0.1",
+    "seed": 42,
+    "discovery_focus": "RG-like flow, entropy-capacity metric, scalar gauge surrogate",
+    "epistemic_status": "synthetic_research_model",
+    "determinism": "runtime timestamp excluded; local RNG used"
+  },
+  "discovery_results": {
+    "renormalization_flow": {
+      "lambda_previous": 0.42,
+      "lambda_renormalized": 0.42147,
+      "scaling_dimension": 1.2,
+      "determination_factor": 0.85,
+      "beta_function_value": 0.147,
+      "fixed_point_drift": 0.07852999999999999,
+      "status": "CONVERGING_TO_ATTRACTOR"
+    },
+    "entropic_information_flux": {
+      "minimal_surface_area": 3.4051746928334485,
+      "entanglement_entropy": 6.810349385666897,
+      "capacity_bound": 24.0,
+      "entropy_saturated": false,
+      "flux_efficiency": 0.2837645577361207
+    },
+    "topological_gauge_damping": {
+      "raw_phase": 0.68,
+      "gauge_tensor": 0.15,
+      "covariant_corrected_phase": 0.6275000000000001,
+      "lock_risk": false,
+      "topological_lock_mitigated": true,
+      "action": "GAUGE_DAMPING_APPLIED"
+    }
+  },
+  "provenance_sha256": "0b73e875ce062a3abfca5b62df5659a3d817310425ae067b1b5acd2f2fadf825"
+}

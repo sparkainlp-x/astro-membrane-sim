@@ -95,3 +95,23 @@ python3 sparkainlp_advanced_science_engine.py \
 ```
 
 This is a synthetic numerical model, not a physical Cahn-Hilliard solver, validated stochastic differential-equation integrator, holographic-gravity calculation, or flight-control system. Any empirical claim would require separate physical definitions, calibration data, convergence studies, uncertainty analysis, and experimental validation.
+
+## Next-discovery engine
+
+`sparkainlp_next_discovery_engine.py` adds three deterministic synthetic diagnostics:
+
+- RG-like coupling flow toward an explicit target
+- An entropy-to-capacity metric over non-negative subregion densities
+- A scalar gauge-correction surrogate with an explicit lock-risk threshold
+
+The implementation uses a private seeded RNG, canonical timestamp-free manifests, strict finite-value validation, safe empty-capacity handling, and fail-closed domain checks.
+
+Run it with:
+
+```bash
+python3 sparkainlp_next_discovery_engine.py \
+  --seed 42 \
+  --output next_discovery_audit.json
+```
+
+These metrics are not literal Ryu–Takayanagi calculations, non-Abelian gauge-field simulations, or empirical discoveries. They are transparent software-defined surrogates intended for reproducible numerical experimentation.
