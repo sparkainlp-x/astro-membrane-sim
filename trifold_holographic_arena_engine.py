@@ -24,7 +24,7 @@ import math
 import random
 from numbers import Real
 
-VERSION = "1.1.0"
+VERSION = "1.2.0"
 
 
 def _finite_real(name, value):
@@ -133,16 +133,54 @@ class CryptographicProvenanceLedger:
         return hashlib.sha256(cls.canonical_bytes(payload)).hexdigest()
 
 
+def evaluate_success_criteria(simulation_results):
+    """Evaluate explicit synthetic quality gates for the final audit report."""
+    membranes = simulation_results["trifold_spinning_membranes"]
+    calibration = simulation_results["eleven_dimensional_calibration"]
+    loop = simulation_results["tiktak_temporal_loop"]
+
+    membrane_phases_normalized = all(
+        0.0 <= state["phase_angle"] < 2.0 * math.pi
+        for state in membranes.values()
+    )
+    criteria = {
+        "three_membranes_present": len(membranes) == 3,
+        "membrane_phases_normalized": membrane_phases_normalized,
+        "nine_plus_two_dimensions_present": (
+            calibration["spatial_dimensions"] == 9
+            and calibration["observer_dimensions"] == 2
+        ),
+        "empathy_alignment_proxy_pass": (
+            calibration["d11_empathetic_alignment_proxy"] >= 0.70
+        ),
+        "temporal_resonance_finite": math.isfinite(
+            loop["infinity_harmonic_resonance"]
+        ),
+        "temporal_loop_diagnostic_stable": (
+            loop["loop_stability"] == "STABLE_DIAGNOSTIC"
+        ),
+    }
+    return {
+        "criteria": criteria,
+        "overall_success": all(criteria.values()),
+        "interpretation": (
+            "All synthetic quality gates passed"
+            if all(criteria.values())
+            else "One or more synthetic quality gates failed"
+        ),
+    }
+
+
 def execute_trifold_arena_simulation(seed=42):
     if isinstance(seed, bool) or not isinstance(seed, int):
         raise ValueError("seed must be an integer.")
 
     local_rng = random.Random(seed)
-    arena = TrifoldSpinningArena(angular_velocity=1.5)
+    arena = TrifoldSpinningArena(angular_velocity=1.8)
     observer = ElevenDimensionalObserver()
     loop_engine = TikTakInfinityLoop()
     raw_telemetry = [local_rng.uniform(0.1, 0.9) for _ in range(9)]
-    empathy_proxy = 0.88
+    empathy_proxy = 0.92
 
     payload = {
         "metadata": {
@@ -154,7 +192,7 @@ def execute_trifold_arena_simulation(seed=42):
             "determinism": "runtime timestamp excluded; local RNG used",
         },
         "simulation_results": {
-            "trifold_spinning_membranes": arena.rotate_arenas(tick_count=5),
+            "trifold_spinning_membranes": arena.rotate_arenas(tick_count=7),
             "eleven_dimensional_calibration": observer.calibrate_observer_axes(
                 raw_telemetry, empathy_proxy
             ),
@@ -165,6 +203,9 @@ def execute_trifold_arena_simulation(seed=42):
             ),
         },
     }
+    payload["simulation_results"]["success_criteria"] = evaluate_success_criteria(
+        payload["simulation_results"]
+    )
     payload["provenance_sha256"] = CryptographicProvenanceLedger.generate_manifest(payload)
     return payload
 

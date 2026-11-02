@@ -10,6 +10,7 @@ from trifold_holographic_arena_engine import (
     ElevenDimensionalObserver,
     TikTakInfinityLoop,
     TrifoldSpinningArena,
+    evaluate_success_criteria,
     execute_trifold_arena_simulation,
 )
 
@@ -61,6 +62,12 @@ class TrifoldArenaTests(unittest.TestCase):
                 "simulation_results": first["simulation_results"],
             }),
         )
+
+    def test_success_criteria_pass_for_reference_run(self):
+        results = execute_trifold_arena_simulation(seed=42)["simulation_results"]
+        success = evaluate_success_criteria(results)
+        self.assertTrue(success["overall_success"])
+        self.assertTrue(all(success["criteria"].values()))
 
     def test_different_seed_changes_telemetry(self):
         first = execute_trifold_arena_simulation(seed=42)

@@ -318,3 +318,16 @@ The temporal loop compares past and future states around a present state and rep
 The empathy score is an input proxy for alignment experiments. It cannot establish moral intent, safety, or human welfare. Likewise, the 3-membrane and 9+2 labels are computational abstractions, not claims about physical dimensions or holographic gravity.
 
 As with the other modules, the engine uses a private seeded RNG, excludes runtime timestamps, and records a canonical SHA-256 provenance manifest.
+
+
+---
+
+## Appendix — Final Scientific-Outcome Gate
+
+The reference execution now evaluates explicit success criteria instead of relying on a narrative claim that the result is successful.
+
+The gate checks that all three membranes exist, every phase angle is normalized, the 9+2 dimensional bookkeeping is present, the empathy value clears its configured alignment-proxy threshold, the temporal resonance is finite, and the loop returns a stable diagnostic state.
+
+A passing `overall_success` means that these software-defined quality checks passed for the selected synthetic inputs. It does not establish physical validity, moral alignment, human benefit, or safety. Those claims require separate definitions, independent evaluation, empirical evidence, and appropriate governance.
+
+This change turns the final result into an auditable goal report: each criterion is visible, testable, and tied to the deterministic provenance hash.

@@ -155,3 +155,15 @@ python3 trifold_holographic_arena_engine.py \
 ```
 
 The empathy value is a supplied alignment proxy, not a measurement of moral intent or human well-being. The model is a synthetic computational diagnostic, not an 11-dimensional physical theory or a literal holographic arena.
+
+## Final success criteria
+
+The trifold reference run now includes an explicit synthetic quality gate. It succeeds only when all of the following hold:
+
+- Three membranes are present and all phase angles are normalized
+- The 9+2 observer dimensions are present
+- The empathy alignment proxy meets its configured threshold
+- Temporal resonance is finite
+- The temporal loop returns the stable diagnostic state
+
+`overall_success` means that these software-defined checks passed for the selected inputs. It does not mean that a physical theory was validated, that an autonomous system is safe, or that human well-being was measured.
