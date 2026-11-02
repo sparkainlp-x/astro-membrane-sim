@@ -1,0 +1,49 @@
+{
+  "metadata": {
+    "engine": "wormhole_crystallization_engine.py",
+    "version": "1.1.0",
+    "seed": 42,
+    "framework": "Wormhole Crystallization Membrane & Trifold Arena",
+    "epistemic_status": "synthetic_research_model",
+    "determinism": "runtime timestamp excluded; local RNG used"
+  },
+  "simulation_results": {
+    "wormhole_membrane_dynamics": {
+      "throat_radius": 1.2,
+      "exotic_energy_density": 0.75,
+      "gravitational_shear": 0.4,
+      "crystallization_index": 0.15745551758033824,
+      "damping_correction": 0.1417099658223044,
+      "adjusted_stability": 0.015745551758033827,
+      "throat_pinch_off_risk": false,
+      "membrane_action": "APPLY_THROAT_DAMPING"
+    },
+    "trifold_bridge_transmission": {
+      "bridge_mode": "ACTIVE_SYNTHETIC_CHANNEL",
+      "packet_length": 4,
+      "resonance_factor": 0.04340091058895758,
+      "resonance_bound": 0.68,
+      "resonance_bounded": true,
+      "transmission_integrity": "BOUNDED_SYNTHETIC_RESIDUAL"
+    },
+    "eleven_dimensional_calibration": {
+      "spatial_dimensions": 9,
+      "observer_dimensions": 2,
+      "d10_self_knowing_factor": 0.4023199347560367,
+      "d11_empathetic_alignment_proxy": 0.92,
+      "eleven_d_magnitude": 1.6700469067919699,
+      "social_proxy_status": "ALIGNMENT_PROXY_PASS"
+    },
+    "success_criteria": {
+      "criteria": {
+        "throat_not_at_pinch_off_threshold": true,
+        "bridge_resonance_bounded": true,
+        "nine_plus_two_dimensions_present": true,
+        "empathy_alignment_proxy_pass": true
+      },
+      "overall_success": true,
+      "interpretation": "All synthetic throat, bridge, and observer gates passed"
+    }
+  },
+  "provenance_sha256": "6ccf2cc7c4f5e9fa51b25a07b8f759567e14482743f18c502a38f8eab414e540"
+}

@@ -167,3 +167,19 @@ The trifold reference run now includes an explicit synthetic quality gate. It su
 - The temporal loop returns the stable diagnostic state
 
 `overall_success` means that these software-defined checks passed for the selected inputs. It does not mean that a physical theory was validated, that an autonomous system is safe, or that human well-being was measured.
+
+## Wormhole crystallization diagnostic
+
+`wormhole_crystallization_engine.py` adds a synthetic throat-risk diagnostic, a bounded past-to-future bridge resonance metric, and the existing 9+2 observer-proxy calibration.
+
+The throat model validates positive radius and finite non-negative inputs, applies a bounded damping gain, and reports pinch-off risk. The bridge requires equal non-empty packets and reports an explicit resonance bound. It does not claim zero information loss; its integrity label is `BOUNDED_SYNTHETIC_RESIDUAL`.
+
+Run it with:
+
+```bash
+python3 wormhole_crystallization_engine.py \
+  --seed 42 \
+  --output wormhole_crystallization_audit.json
+```
+
+The module is a numerical surrogate only. It does not model spacetime, Einstein–Rosen bridges, gravitational waves, traversability, or physical topological stabilization.

@@ -331,3 +331,16 @@ The gate checks that all three membranes exist, every phase angle is normalized,
 A passing `overall_success` means that these software-defined quality checks passed for the selected synthetic inputs. It does not establish physical validity, moral alignment, human benefit, or safety. Those claims require separate definitions, independent evaluation, empirical evidence, and appropriate governance.
 
 This change turns the final result into an auditable goal report: each criterion is visible, testable, and tied to the deterministic provenance hash.
+
+
+---
+
+## Appendix — Wormhole Crystallization Diagnostic
+
+The latest module, `wormhole_crystallization_engine.py`, models a scalar throat-risk surrogate with damping, a bounded synthetic bridge resonance, and 9+2 observer-proxy calibration.
+
+The throat diagnostic computes a crystallization index from shear, throat radius, and an exponential energy factor, then applies a gain-limited damping correction. The bridge diagnostic requires equal packet lengths and reports a resonance bound based on the present anchor.
+
+The original claim of `VERIFIED_ZERO_LOSS` was removed. A scalar resonance cannot verify information preservation or physical traversability, so the report now says `BOUNDED_SYNTHETIC_RESIDUAL` and exposes the actual bound.
+
+The reference run includes explicit success gates for avoiding the pinch-off threshold, keeping bridge resonance bounded, preserving 9+2 dimensional bookkeeping, and passing the empathy alignment proxy. These are software checks, not evidence of wormholes, spacetime manipulation, or human benefit.
