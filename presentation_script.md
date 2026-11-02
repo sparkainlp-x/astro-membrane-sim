@@ -303,3 +303,18 @@ Each node receives a non-negative raw energy and a radial coordinate. The engine
 The ring generator uses a private seeded random stream. Node evaluation is deterministic for explicit inputs, and the full timestamp-free report is bound to a canonical SHA-256 provenance manifest.
 
 The model does not solve rotating-frame equations, include Coriolis vectors, simulate vortices, or demonstrate physical crystallization control. Those claims would require a defined continuum model, coordinate conventions, dimensional analysis, numerical convergence studies, and empirical validation.
+
+
+---
+
+## Appendix — Trifold Arena and Observer Calibration
+
+The new `trifold_holographic_arena_engine.py` represents past, present, and future as three phase-offset diagnostic membranes. Each phase is normalized to one rotation, and its sine is reported as a bounded yin-yang balance signal.
+
+A second diagnostic evaluates a nine-value telemetry vector together with two observer axes: an internal sinusoidal summary and a normalized empathy alignment proxy. The implementation requires exactly nine finite telemetry values so the dimensional bookkeeping is explicit.
+
+The temporal loop compares past and future states around a present state and reports the resulting harmonic resonance. It does not automatically label every loop as infinitely stable; stability is presented as a finite diagnostic status.
+
+The empathy score is an input proxy for alignment experiments. It cannot establish moral intent, safety, or human welfare. Likewise, the 3-membrane and 9+2 labels are computational abstractions, not claims about physical dimensions or holographic gravity.
+
+As with the other modules, the engine uses a private seeded RNG, excludes runtime timestamps, and records a canonical SHA-256 provenance manifest.

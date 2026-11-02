@@ -135,3 +135,23 @@ python3 spinning_cascade_engine.py \
 ```
 
 The model is a thresholded numerical surrogate. It is not a rotating-frame PDE solver, a Coriolis/centrifugal force simulation, or evidence that spin can control physical crystallization or prevent system failure.
+
+## Trifold holographic arena engine
+
+`trifold_holographic_arena_engine.py` adds three reproducible diagnostics:
+
+- Three phase-offset membrane states for past, present, and future
+- A past-present-future temporal-loop resonance metric
+- Nine telemetry dimensions plus two explicit observer-calibration axes
+
+The implementation normalizes membrane phases, requires exactly nine finite telemetry values, validates the empathy proxy in `[0, 1]`, uses a private seeded RNG, and emits a timestamp-free SHA-256 manifest.
+
+Run it with:
+
+```bash
+python3 trifold_holographic_arena_engine.py \
+  --seed 42 \
+  --output trifold_arena_audit.json
+```
+
+The empathy value is a supplied alignment proxy, not a measurement of moral intent or human well-being. The model is a synthetic computational diagnostic, not an 11-dimensional physical theory or a literal holographic arena.
