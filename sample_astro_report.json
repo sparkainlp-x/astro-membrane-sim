@@ -1,0 +1,42 @@
+{
+  "metadata": {
+    "generator": "astro_membrane_sim.py",
+    "version": "0.1.1",
+    "seed": 7,
+    "data_kind": "synthetic_illustrative",
+    "determinism": "runtime timestamp excluded",
+    "deterministic_sha256": "a45ce32596d81f615790d57c31c4f2157281f2292f8bfb6f6b88911fc757822e"
+  },
+  "results": {
+    "holographic_boundary": [
+      {
+        "cell_id": 0,
+        "rms": 0.4761475901726488,
+        "peak": 0.8810040844743361
+      },
+      {
+        "cell_id": 1,
+        "rms": 0.5366026528131361,
+        "peak": 0.8841398779940657
+      }
+    ],
+    "anti_crystallization": {
+      "phase_order": 0.82,
+      "crystallization_index": 0.15,
+      "residual": 0.18000000000000005,
+      "locked": false,
+      "action": "FLUID_ADAPTIVE"
+    },
+    "relativistic_sync_sample": [
+      0.37344734863737844,
+      0.21279629877385592,
+      0.6819417789241404
+    ],
+    "self_knowing_calibration": {
+      "all_admissible": true,
+      "mean_telemetry": 1.00125,
+      "invariant_drift": 0.0012499999999999734,
+      "calibration_status": "LOCKED"
+    }
+  }
+}
