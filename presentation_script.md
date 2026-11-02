@@ -243,3 +243,18 @@ The trajectory generator uses `random.Random(seed)` rather than the process-wide
 The new regression suite checks exact energy terms, invalid-input rejection, reachable phase locking, same-seed equality, different-seed divergence, zero-step behavior, and preservation of global random state.
 
 This extension strengthens the repository's scientific posture by making assumptions explicit, identifying unreachable logic, and testing both numerical behavior and reproducibility.
+
+
+---
+
+## Appendix — Unified Master Engine
+
+The repository now includes `sparkainlp_master_engine.py`, which composes the four validated lanes into a single audit-oriented testbench.
+
+The master flow begins with a seeded synthetic bulk vector and velocity vector. The membrane mapper produces boundary summaries. The phase-field engine evaluates free energy and crystallization status. The synchronization predictor estimates delayed telemetry. Finally, the calibrator checks readings against positivity and invariant-drift rules.
+
+The composition is deterministic without pretending to be physical flight software. The master engine omits runtime timestamps, uses a private pseudo-random generator, validates all finite numeric inputs, and hashes canonical JSON.
+
+The original master attachment contained the same unreachable condition identified in the phase-field prototype: `V(phi) > 0.15` cannot occur on the admissible interval because the double-well maximum is `0.0625`. The integrated engine uses the corrected explicit phase-lock threshold from the hardened phase-field implementation.
+
+The master report records the four lane outputs under `simulation_results`. Its regression tests verify reproducibility, seed sensitivity, non-finite-value rejection, telemetry shape validation, negative-tick rejection, and the presence of all four lanes.

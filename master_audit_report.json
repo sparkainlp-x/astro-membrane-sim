@@ -1,0 +1,46 @@
+{
+  "metadata": {
+    "engine": "sparkainlp_master_engine.py",
+    "version": "1.0.1",
+    "seed": 42,
+    "epistemic_status": "synthetic_research_model",
+    "determinism": "runtime timestamp excluded; local RNG used",
+    "deterministic_sha256": "901ccf5a7f73e2e36da9f0812743705436d609ccfdb6171452bbb69eedec4a71"
+  },
+  "simulation_results": {
+    "holographic_boundary": [
+      {
+        "cell_id": 0,
+        "rms_energy": 0.5154470662771935,
+        "peak_amplitude": 0.8657704577654249
+      },
+      {
+        "cell_id": 1,
+        "rms_energy": 0.5362540125903961,
+        "peak_amplitude": 0.8916186805092762
+      }
+    ],
+    "phase_field_energy": {
+      "phi": 0.75,
+      "gradient_norm_sq": 0.05,
+      "crystallization_index": 0.12,
+      "double_well_potential": 0.03515625,
+      "crystallization_penalty": 0.01224,
+      "total_free_energy": 0.07239625,
+      "crystallization_locked": false,
+      "engine_action": "MAINTAIN_FLUID_FLOW",
+      "action": "MAINTAIN_FLUID_FLOW"
+    },
+    "relativistic_sync_sample": [
+      0.6869688612080651,
+      0.18072858471830744,
+      0.26041403052739837
+    ],
+    "self_knowing_calibration": {
+      "all_admissible": true,
+      "mean_telemetry": 1.0,
+      "invariant_drift": 0.0,
+      "calibration_status": "LOCKED"
+    }
+  }
+}

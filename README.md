@@ -43,3 +43,30 @@ python3 -m unittest -v test_orbital_phase_field_engine.py
 ```
 
 All models in this repository are synthetic research prototypes. They do not control spacecraft, active manufacturing machinery, or other physical systems, and they are not flight-certified scientific software.
+
+## Unified master engine
+
+`sparkainlp_master_engine.py` composes the four lanes into one deterministic audit:
+
+1. Bulk-to-boundary membrane summaries
+2. Validated phase-field free energy and anti-crystallization status
+3. Lagged telemetry prediction
+4. Invariant-based calibration checks
+
+The master engine uses the hardened phase-field implementation, a private seeded RNG, strict finite-value validation, equal-length checks for telemetry vectors, and canonical timestamp-free JSON hashing.
+
+Run the master audit with:
+
+```bash
+python3 sparkainlp_master_engine.py \
+  --seed 42 \
+  --output master_audit_report.json
+```
+
+Run all tests with:
+
+```bash
+python3 -m unittest -v test_orbital_phase_field_engine.py test_master_engine.py
+```
+
+A Zenodo DOI or other archival identifier must only be added after an actual archive deposit and verification; the repository does not claim one automatically.
