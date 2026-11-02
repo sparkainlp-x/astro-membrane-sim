@@ -183,3 +183,19 @@ python3 wormhole_crystallization_engine.py \
 ```
 
 The module is a numerical surrogate only. It does not model spacetime, Einstein–Rosen bridges, gravitational waves, traversability, or physical topological stabilization.
+
+## Aerospace synchronization breakout
+
+`astro_sync_engine.py` isolates the telemetry synchronization lane as a reproducible diagnostic. It predicts a state vector using a configured synthetic communication lag and velocity drift, then reports whether the maximum drift remains within tolerance.
+
+The module requires matching finite vectors, non-negative integer elapsed ticks, and exactly nine finite observer telemetry values. Its reference run includes a success gate for finite predicted states, stable drift, 9+2 observer bookkeeping, and the empathy alignment proxy.
+
+Run it with:
+
+```bash
+python3 astro_sync_engine.py \
+  --seed 42 \
+  --output astro_sync_audit.json
+```
+
+This is a bounded linear extrapolation model, not a relativistic dynamics solver, spacecraft navigation system, or live telemetry interface.

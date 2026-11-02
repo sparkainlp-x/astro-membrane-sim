@@ -344,3 +344,16 @@ The throat diagnostic computes a crystallization index from shear, throat radius
 The original claim of `VERIFIED_ZERO_LOSS` was removed. A scalar resonance cannot verify information preservation or physical traversability, so the report now says `BOUNDED_SYNTHETIC_RESIDUAL` and exposes the actual bound.
 
 The reference run includes explicit success gates for avoiding the pinch-off threshold, keeping bridge resonance bounded, preserving 9+2 dimensional bookkeeping, and passing the empathy alignment proxy. These are software checks, not evidence of wormholes, spacetime manipulation, or human benefit.
+
+
+---
+
+## Appendix — Aerospace Synchronization Breakout
+
+The repository now includes `astro_sync_engine.py`, which isolates high-latency telemetry prediction as its own testable track.
+
+The engine applies a transparent linear drift model: each velocity component is multiplied by elapsed ticks plus a configured lag, then added to the local telemetry value. It reports the full predicted vector, maximum drift, and a stable-versus-warning status against an explicit tolerance.
+
+The implementation rejects mismatched vectors, non-finite inputs, and invalid elapsed ticks. Its 9+2 observer calibration is validated independently, and the reference run includes a success gate for finite predictions, acceptable drift, dimensional bookkeeping, and the empathy alignment proxy.
+
+This is a synthetic bounded extrapolation diagnostic. It is not a relativistic dynamics solver, spacecraft navigation system, or live telemetry integration.
