@@ -383,3 +383,16 @@ Rather than allowing code to rewrite itself at runtime, the orchestrator compose
 The master cycle passes only when every component gate succeeds, all coupling metrics are finite, bridge resonance remains bounded, the three arena membranes are present, and the observer alignment proxy passes its configured threshold.
 
 This is a stronger scientific design than runtime self-modification: parameters are inspectable, reruns are deterministic, and source logic remains stable for peer review. The coupling summaries are computational surrogates, not a physical metric tensor, proof of causality, or evidence of human benefit.
+
+
+---
+
+## Appendix — Multi-Agent Arena Network
+
+The repository now includes `multi_agent_arena_network.py`, which generalizes the trifold diagnostic from one arena to multiple explicit nodes.
+
+Each node computes past, present, and future membrane phases, validates exactly nine local telemetry values, and exposes D10 and D11 proxy metrics. A network layer aggregates the node proxies with a damping-adjusted collective-resonance calculation and reports a bounded stability state.
+
+The supplied compatibility status `ACTIVE_EINSTEIN_ROSEN_MULTINODE` is preserved for the regression contract, while the epistemic label makes clear that this is a synthetic aggregation diagnostic. It does not demonstrate a physical wormhole, entanglement, or zero-loss transmission.
+
+The regression suite verifies node computation, network bridging, same-seed reproducibility, seed variance, manifest correctness, input rejection, node-count validation, and global RNG isolation.

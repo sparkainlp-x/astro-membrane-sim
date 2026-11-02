@@ -229,3 +229,24 @@ python3 sparkainlp_super_system.py \
 ```
 
 A harmonized result means all component gates and orchestrator checks passed for the selected synthetic inputs. It does not establish physical unification, autonomous safety, empathy measurement, or human benefit.
+
+## Multi-agent arena network
+
+`multi_agent_arena_network.py` extends the orchestrator with multiple explicit arena nodes and a bounded network aggregation diagnostic. Each node validates nine telemetry values, computes three normalized membrane phases, and exposes 9+2 proxy metrics. The network aggregates node states using a damping-adjusted collective-resonance surrogate.
+
+The compatibility status `ACTIVE_EINSTEIN_ROSEN_MULTINODE` is retained for the supplied regression contract, but the report simultaneously labels the implementation as a bounded synthetic aggregation. It does not claim physical wormholes, entanglement, or zero-loss transport.
+
+Run it with:
+
+```bash
+python3 multi_agent_arena_network.py \
+  --seed 42 \
+  --node-count 3 \
+  --output multi_agent_network_audit.json
+```
+
+Run its tests with:
+
+```bash
+python3 -m unittest -v test_multi_agent_arena_network.py
+```

@@ -1,0 +1,102 @@
+{
+  "metadata": {
+    "engine": "multi_agent_arena_network.py",
+    "version": "1.1.0",
+    "seed": 42,
+    "framework": "Multi-Agent Trifold Arena & Synthetic Tensor Network",
+    "epistemic_status": "synthetic_research_model",
+    "determinism": "runtime timestamp excluded; local RNG used"
+  },
+  "simulation_results": {
+    "node_count": 3,
+    "active_node_count": 3,
+    "node_states": [
+      {
+        "node_id": "Node-0",
+        "membrane_states": {
+          "PAST_MEMBRANE": {
+            "phase_angle": 2.4,
+            "yin_yang_balance": 0.675463180551151,
+            "mode": "ACTIVE_YANG"
+          },
+          "PRESENT_MEMBRANE": {
+            "phase_angle": 4.494395102393195,
+            "yin_yang_balance": -0.97633328052529,
+            "mode": "RECEPTIVE_YIN"
+          },
+          "FUTURE_MEMBRANE": {
+            "phase_angle": 0.30560489760680376,
+            "yin_yang_balance": 0.30087009997413844,
+            "mode": "ACTIVE_YANG"
+          }
+        },
+        "d10_self_knowing": 0.4775232483563361,
+        "d11_empathy_alignment": 0.93,
+        "eleven_d_magnitude": 1.9492828216686504,
+        "node_status": "SYNCHRONIZED_ACTIVE",
+        "epistemic_label": "BOUNDED_SYNTHETIC_NODE_STATE"
+      },
+      {
+        "node_id": "Node-1",
+        "membrane_states": {
+          "PAST_MEMBRANE": {
+            "phase_angle": 2.5,
+            "yin_yang_balance": 0.5984721441039565,
+            "mode": "ACTIVE_YANG"
+          },
+          "PRESENT_MEMBRANE": {
+            "phase_angle": 4.594395102393195,
+            "yin_yang_balance": -0.9930467951953366,
+            "mode": "RECEPTIVE_YIN"
+          },
+          "FUTURE_MEMBRANE": {
+            "phase_angle": 0.4056048976068043,
+            "yin_yang_balance": 0.3945746510913799,
+            "mode": "ACTIVE_YANG"
+          }
+        },
+        "d10_self_knowing": 0.41338303056368086,
+        "d11_empathy_alignment": 0.93,
+        "eleven_d_magnitude": 1.7164943940501671,
+        "node_status": "SYNCHRONIZED_ACTIVE",
+        "epistemic_label": "BOUNDED_SYNTHETIC_NODE_STATE"
+      },
+      {
+        "node_id": "Node-2",
+        "membrane_states": {
+          "PAST_MEMBRANE": {
+            "phase_angle": 2.6,
+            "yin_yang_balance": 0.5155013718214642,
+            "mode": "ACTIVE_YANG"
+          },
+          "PRESENT_MEMBRANE": {
+            "phase_angle": 4.694395102393195,
+            "yin_yang_balance": -0.9998381145454189,
+            "mode": "RECEPTIVE_YIN"
+          },
+          "FUTURE_MEMBRANE": {
+            "phase_angle": 0.5056048976068048,
+            "yin_yang_balance": 0.48433674272395494,
+            "mode": "ACTIVE_YANG"
+          }
+        },
+        "d10_self_knowing": 0.4889576422593914,
+        "d11_empathy_alignment": 0.93,
+        "eleven_d_magnitude": 2.0238374286676275,
+        "node_status": "SYNCHRONIZED_ACTIVE",
+        "epistemic_label": "BOUNDED_SYNTHETIC_NODE_STATE"
+      }
+    ],
+    "tensor_network_bridge": {
+      "tensor_network_bridge": "ACTIVE_EINSTEIN_ROSEN_MULTINODE",
+      "node_count": 3,
+      "collective_resonance": 0.4277578155656166,
+      "crystallization_lock_risk": 0.06416367233484249,
+      "crystallization_lock_risk_flag": false,
+      "bridge_status": "BOUNDED_STABLE",
+      "epistemic_label": "BOUNDED_SYNTHETIC_NETWORK_AGGREGATION"
+    },
+    "network_success": true
+  },
+  "provenance_sha256": "243a7c08922bac04972ef610eca998880e2963a828f484ed6b8ca2d0271d7019"
+}
